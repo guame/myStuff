@@ -1,0 +1,15 @@
+[core]
+	excludesfile = 
+	autocrlf = input
+[push]
+	default = simple
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+[help]
+	autocorrect = 1
+[color]
+	ui = auto
