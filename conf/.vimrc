@@ -14,19 +14,19 @@ set mouse=""
 set ignorecase
 
 
-nnoremap <C-Down> <C-W><C-J>
-nnoremap <C-Up> <C-W><C-K>
-nnoremap <C-Right> <C-W><C-L>
-nnoremap <C-Left> <C-W><C-H>
-
 " Tab navigation like Firefox.
 nnoremap <S-tab> :tabprevious<CR>
 nnoremap <tab>   :tabnext<CR>
 nnoremap <C-t>   :tabnew<CR>
 
-" to allow browsing in the 
-
+" Open the file browser
 nnoremap <Home>	:Ex<CR>
+
+" move around splitten screen with the arrow keys
+nnoremap <C-Down> <C-W><C-J>
+nnoremap <C-Up> <C-W><C-K>
+nnoremap <C-Right> <C-W><C-L>
+nnoremap <C-Left> <C-W><C-H>
 
 set splitbelow
 set splitright
